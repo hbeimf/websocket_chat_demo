@@ -1,0 +1,17 @@
+{application, websocket_chat_demo,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { websocket_chat_demo_app, []}},
+  {applications,
+   [kernel,
+   cowboy,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.

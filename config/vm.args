@@ -1,0 +1,6 @@
+-sname websocket_chat_demo
+
+-setcookie websocket_chat_demo_cookie
+
++K true
++A30
