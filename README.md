@@ -2,8 +2,8 @@
 2> 列表
 3> 元组
 4> hash表
-5> 模块 
-6> 记录
+5> 记录
+6> 模块 
 7> ets, dets, mnesia
 8> otp
 9> actor 模型
