@@ -15,6 +15,7 @@
 
 
 1> rebar, rebar3
-2>热更新
-3> ets, dets, mnesia
-4>集群
+2> 发布版本
+3> 热更新
+4> ets, dets, mnesia
+5>集群
