@@ -47,7 +47,8 @@ broadcast(Clients, Msg) ->
 	end, Clients),
 	ok.
 
-init({tcp, http}, _Req, _Opts) ->
+init({tcp, http}, Req, _Opts) ->
+	?LOG({login_req, Req}),
 	{upgrade, protocol, cowboy_websocket}.
 
 websocket_init(_TransportName, Req, _Opts) ->
